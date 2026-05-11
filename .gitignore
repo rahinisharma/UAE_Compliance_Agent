@@ -1,0 +1,18 @@
+1. Security & Secrets (CRITICAL)
+.env
+
+# 2. Local Databases (Keep your GitHub light)
+# These folders are huge and specific to your local machine
+chroma_db/
+cohere_db/
+.gradio/
+
+# 3. Python Junk
+__pycache__/
+*.pyc
+venv/
+env/
+
+# 4. OS Specific Files
+.DS_Store
+Thumbs.db
