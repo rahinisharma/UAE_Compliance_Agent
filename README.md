@@ -10,6 +10,12 @@ The Tech Stack
 - Database: ChromaDB (Vector store)
 - UI: Gradio 6.0 (Custom charcoal matte interface)
 
+Data Setup
+To protect copyright and keep the repository lightweight, the legal PDFs are not included. 
+1. Create a folder named 'data/' in the root directory.
+2. Download the official "UAE Federal Decree-Laws" (Corporate Tax, Data Privacy, etc.) from the official government portal.
+3. Place the PDFs in the 'data/' folder and run 'processor.py' to initialize the vector database.
+
 Architecture
 The system utilizes a multi-stage RAG pipeline:
 1. Retrieval: Converts legal PDFs into embeddings via Cohere.
